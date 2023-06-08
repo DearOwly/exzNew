@@ -16,10 +16,10 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Entity {
     private String gender;
-    private String plural;
+    private Integer plural;
     private Integer age;
     private String race;
-    private String parity;
+    private Integer parity;
     private String married;
     private String bwt;
     private Integer smokeN;
