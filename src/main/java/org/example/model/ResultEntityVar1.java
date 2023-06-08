@@ -1,5 +1,6 @@
 package org.example.model;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,7 +12,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ResultEntity implements Serializable {
-    private String motherRace;
-    private String educationTime;
+public class ResultEntityVar1 implements Serializable {
+    private String gender;
+    private String married;
+    private String gestation;
 }
